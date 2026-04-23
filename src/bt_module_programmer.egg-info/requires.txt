@@ -1,0 +1,5 @@
+PyQt6>=6.6
+pyserial>=3.5
+
+[dev]
+pytest>=8.0

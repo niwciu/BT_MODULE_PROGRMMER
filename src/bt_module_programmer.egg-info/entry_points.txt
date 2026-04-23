@@ -1,0 +1,2 @@
+[gui_scripts]
+bt-module-programmer = bt_programmer.main:run

@@ -1,3 +1,16 @@
+Metadata-Version: 2.4
+Name: bt-module-programmer
+Version: 0.1.0
+Summary: PyQt6 desktop tool for configuring Bluetooth UART modules such as HC-05 and JDY-31.
+Author: OpenAI Codex
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt6>=6.6
+Requires-Dist: pyserial>=3.5
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+
 # BT Module Programmer
 
 Desktop application in `PyQt6` for programming Bluetooth UART modules, with initial support for:
@@ -32,13 +45,6 @@ or
 
 ```bash
 python -m bt_programmer.main
-```
-
-Recommended in this repo:
-
-```bash
-source .venv/bin/activate
-bt-module-programmer
 ```
 
 ## Tests
